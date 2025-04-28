@@ -1,0 +1,13 @@
+.contact__title {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 800px) {
+  .contact__title {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
+

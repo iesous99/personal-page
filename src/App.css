@@ -1,0 +1,12 @@
+.app-background {
+  min-height: 100vh;
+  background: linear-gradient(
+    to right,
+    #ECECEC,
+    #F0FFED,
+    #FFEFEF,
+    #E8E8FF,
+    #ECECEC
+  );
+  padding: 0.1px;
+}
