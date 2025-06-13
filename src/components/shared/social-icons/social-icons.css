@@ -1,8 +1,10 @@
 .social-icons {
   display: flex;
-  justify-content: space-evenly;
   flex-direction: row;
-  margin: 4em 0;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+  gap: 100px;
 }
 
 .icon {
@@ -23,6 +25,7 @@
 @media screen and (max-width: 600px) {
   .social-icons {
     width: 300px;
+    gap: 50px;
   }
   .icon {
     width: 50px;

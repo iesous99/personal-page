@@ -1,14 +1,14 @@
 import "./hero.css";
-import iesousGhibliJpeg from "../../../assets/iesous-ghibli.jpeg";
+import iesousLogoJpeg from "../../../assets/li-Logo.jpeg";
 
 export const Hero = () => {
   return (
     <main className="hero">
       <div className="hero__logo">
-        <img src={iesousGhibliJpeg} alt="personal-logo like studio ghibli" />
+        <img src={iesousLogoJpeg} alt="personal-logo like studio ghibli" />
       </div>
       <div className="hero__content">
-        <h2 className="hero__title">Desarrollador Web Front-end</h2>
+        <h2 className="hero__title">Técnico Informático y Desarrollador Web Front-end</h2>
         <div className="hero__icons">
           <img src="react-logo.svg" alt="react logo" title="React" />
           <img src="js-logo.svg" alt="react logo" title="JavaScript" />

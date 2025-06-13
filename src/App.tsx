@@ -1,5 +1,5 @@
 import './App.css'
-import { Nav, Hero, Projects, About, Contact, Footer } from "./components";
+import { Nav, Hero, About, Contact, Footer } from "./components";
 
 
 function App() {
@@ -8,9 +8,9 @@ function App() {
     <div className="app-background">
       <Nav />
       <Hero />
-      <div id="projects">
+      {/* <div id="projects">
         <Projects />
-      </div>
+      </div> */}
       <div id="about">
         <About />
       </div>

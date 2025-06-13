@@ -2,6 +2,7 @@
   max-width: 1200px;
   display: flex;
   justify-content: space-around;
+  margin: 0 auto;
   margin-top: 2rem;
   align-items: center;
 }
@@ -54,5 +55,8 @@
 
   .nav__items a {
     margin: 0 0.5rem;
+  }
+  .nav__items a:hover {
+    transition: color 0.1s ease-in-out, text-shadow 0.1s ease-in-out;
   }
 }
